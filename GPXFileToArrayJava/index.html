@@ -26,6 +26,9 @@
     zoomOffset: -1,
 }).addTo(map);
 
+const reader = new FileReader();
+var jsonArr = reader.readAsString("C:\\xampp\\htdocs\\COMP354Group7\\GPXFileToArrayJava\\JsonArr.txt");
+
 var polylinePoints = [
   [51.502500, -0.090000],
   [51.503000, -0.090000],
