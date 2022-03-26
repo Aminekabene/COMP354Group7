@@ -8,7 +8,10 @@ public class Driver {
 		List<CoordFull> cf = GPXtoArray.convert(GPXFileName);
 		
 		Coord[] coordArr = Coord.coordArr(cf);
-		//we pass this coordArr to the javascript to output the 
+		//we pass this coordArr to the javascript to output the
+
+
+
 		
 	}
 
