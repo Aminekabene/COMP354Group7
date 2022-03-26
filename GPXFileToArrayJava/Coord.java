@@ -24,4 +24,8 @@ public class Coord {
 		Coord[] result = c.toArray(new Coord[c.size()]);
 		return result;
 	}
+	
+	public String toString() {
+		return lat + "," + lon;
+	}
 }
