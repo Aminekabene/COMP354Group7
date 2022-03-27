@@ -9,18 +9,20 @@ tileSize: 512,
 zoomOffset: -1,
 }).addTo(map);
 
-var jsonData= fetch('../GPXFileToArrayJava/JsonArr.txt'); 
-
-var data = JSON.parse(Number)
+var plpointsArr = [fetch('../GPXFileToArrayJava/JsonArr.txt')]; 
 
 
+var array = JSON.parse("\"" + plpointsArr + "\"");
+
+/*
 var polylinePoints = [
     [51.502500, -0.090000],
     [51.503000, -0.090000],
     [51.504500, -0.090500],
     [51.504000, -0.091000]
   ];
+*/
 
-  var polyline = L.polyline(polylinePoints, {color: 'red'}).addTo(map);
+  var polyline = L.polyline(array, {color: 'red'}).addTo(map);
 
 
