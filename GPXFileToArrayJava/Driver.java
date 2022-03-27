@@ -27,6 +27,7 @@ public class Driver {
 	          e.printStackTrace();
 	       }  
 	}
+	
 
 	public static void main(String[] args) throws IOException {
 		String GPXFileName="C:\\xampp\\htdocs\\COMP354Group7\\GPXFileToArrayJava\\testTrack.gpx";
@@ -42,6 +43,7 @@ public class Driver {
 			e.printStackTrace();
 		}
 
+		
 
 		
 	}

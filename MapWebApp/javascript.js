@@ -14,6 +14,7 @@ var plpointsArr = [fetch('../GPXFileToArrayJava/JsonArr.txt')];
 
 var array = JSON.parse("\"" + plpointsArr + "\"");
 
+
 /*
 var polylinePoints = [
     [51.502500, -0.090000],
