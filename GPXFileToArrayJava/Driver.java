@@ -18,17 +18,16 @@ public class Driver {
 	         jsArray.put(coordArr[i]);
 	      }
 	      
-	      jsonObject.put("coord", jsArray);
 	      
 	      try {
 	          FileWriter file = new FileWriter("C:\\xampp\\htdocs\\COMP354Group7\\GPXFileToArrayJava\\JsonArr.json");
-	          file.write(jsonObject.toString());
+	          file.write(jsArray.toString());
 	          file.close();
 	       } catch (IOException e) {
 	          e.printStackTrace();
 	       }
 	      
-	      System.out.println("JSON file created: "+ jsonObject);
+	      System.out.println("JSON file created: "+ jsArray);
 	      
 	}
 

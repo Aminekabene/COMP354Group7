@@ -9,6 +9,8 @@ tileSize: 512,
 zoomOffset: -1,
 }).addTo(map);
 
+/*
+
 var polylinePoints = [
     [51.502500, -0.090000],
     [51.503000, -0.090000],
@@ -16,5 +18,6 @@ var polylinePoints = [
     [51.504000, -0.091000]
   ];
 
-var polyline = L.polyline(polylinePoints, {color: 'red'}).addTo(map);
+  var polyline = L.polyline(polylinePoints, {color: 'red'}).addTo(map);
 
+*/
