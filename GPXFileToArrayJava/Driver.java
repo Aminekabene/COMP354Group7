@@ -25,10 +25,7 @@ public class Driver {
 	          file.close();
 	       } catch (IOException e) {
 	          e.printStackTrace();
-	       }
-	      
-	      System.out.println("JSON file created: "+ jsonObject);
-	      
+	       }  
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -37,8 +34,8 @@ public class Driver {
 		List<CoordFull> cf = GPXtoArray.convert(GPXFileName);
 		
 		Coord[] coordArr = Coord.coordArr(cf);
-		//we pass this coordArr to the javascript to output the
 		
+		//we pass this coordArr to the javascript to output the
 		try {
 			Driver.arrToJson(coordArr);
 		} catch (JSONException e) {
